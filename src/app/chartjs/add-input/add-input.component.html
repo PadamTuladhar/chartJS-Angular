@@ -1,0 +1,10 @@
+<form [formGroup]="addInputForm">
+    <div class="chartCard">
+        <div class="chartBox">
+            <canvas id="myChart"></canvas>
+            Value&nbsp;<input type="number" class="valueId" value="0" formControlName="inputValue">&nbsp;&nbsp;&nbsp;
+            Label&nbsp;<input type="text" class="labelText" value="" formControlName="inputLabel">&nbsp;&nbsp;&nbsp;
+            <button (click)="addValue()">Add value</button>
+        </div>
+    </div>
+</form>

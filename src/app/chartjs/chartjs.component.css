@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100vh;
+    background-color: #f1f1f1;
+}
+
+.main-container {
+    display: flex;
+}
+
+.exampleList {
+    border-right: 1px solid gray;
+}
+
+.btn-link {
+    color: #0065bd;
+    display: block;
+    line-height: 40px;
+}
+
+.btn:hover {
+    border-radius: 0;
+    background-color: #0e4179;
+    color: white;
+}
+
+.btn:focus {
+    background-color: #0e4179;
+    color: white;
+    border-radius: 0;
+}
+
+.btn {
+    border: none;
+    font-family: Roboto Medium, Helvetica, sans-serif;
+    min-height: 40px;
+    padding: 8px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: white;
+    width: 100%;
+    text-align: left;
+}

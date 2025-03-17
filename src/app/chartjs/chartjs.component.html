@@ -1,0 +1,15 @@
+<ng-container>
+    <div class="main-container">
+        <div class="exampleList">
+            <ng-container *ngFor="let list of exampleList">
+                <button type="button" class="btn btn-link" (click)="getExample(list.value, list.viewValue)">
+                    {{list.viewValue}}
+                </button>
+            </ng-container>
+        </div>
+        <div style="margin-left: 20px; margin-top:20px;">
+            <div style="font-weight: bold; text-transform: uppercase;">{{title}}</div>
+            <ng-template #container></ng-template>
+        </div>
+    </div>
+</ng-container>

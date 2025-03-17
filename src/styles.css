@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap-reboot.css";
+@import "~bootstrap/dist/css/bootstrap-grid.css";
+
+.chartCard{
+    margin-top: 20px;
+}
+
+.chartBox {
+    width: 600px;
+    padding: 20px;
+    border-radius: 20px;
+    border: solid 3px rgba(75, 192, 192, 1);
+    background: white;
+    margin-right: 20px;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

@@ -1,0 +1,8 @@
+<div class="chartCard">
+    <div class="chartBox">
+        <canvas id="myChart" (click)="clickHandler($event)"></canvas>
+        <ng-container *ngIf="showBackButton">
+            <button (click)="resetChart()">Back</button>
+        </ng-container>
+    </div>
+</div>
